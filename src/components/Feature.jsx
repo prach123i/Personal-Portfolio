@@ -1,6 +1,8 @@
 import React from "react";
 import Cards from "./Cards";
 import { FaArrowAltCircleDown, FaArrowAltCircleRight, FaArrowRight, FaBars } from "react-icons/fa";
+import { SiWeb3Dotjs } from "react-icons/si";
+
 import { FaBrain } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import { LuBarChart3 } from "react-icons/lu";
@@ -44,6 +46,14 @@ icon={ <FaBars/>}
   icon={<FaBrain/>}
   title="Machine Learning"
   description="will learn this soon in near future"
+  svg={<FaArrowRight/>}
+
+  />
+
+  <Cards
+  icon={<SiWeb3Dotjs/>}
+  title="Blochchain"
+  description="learning in progress"
   svg={<FaArrowRight/>}
 
   />

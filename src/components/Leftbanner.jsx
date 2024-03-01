@@ -44,8 +44,8 @@ const LeftBanner = () => {
           <div className="subcont1 mr-72 text-xl  ">
             <h2>FIND ME ON</h2>
             <div className="icons flex justify-evenly mt-2 text-3xl  gap-5 ">
-              <a href="https://www.linkedin.com/feed/" target="_blank"> <AiFillLinkedin/></a>
-              <a href="https://github.com/" target="_blank"><AiFillGithub/></a>
+              <a href="https://www.linkedin.com/in/prachi-sharma-5682a3253/" target="_blank"> <AiFillLinkedin/></a>
+              <a href="https://github.com/prach123i" target="_blank"><AiFillGithub/></a>
               <AiFillMail/>
             </div>
           </div>

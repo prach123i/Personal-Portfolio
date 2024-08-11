@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Leftbanner from "./Leftbanner";
 import Rightbanner from "./Rightbanner";
 export default function Home(){

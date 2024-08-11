@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { navLinksdata } from "./index.jsx";
 
@@ -21,8 +20,7 @@ const Navbar = () => {
                 duration={500}
               >
                 {title}
-              </Link>
-              
+              </Link>    
             </li>
           ))}
         </ul>

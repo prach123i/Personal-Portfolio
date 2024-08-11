@@ -1,12 +1,10 @@
-import React from "react";
 import Cards from "./Cards";
-import { FaArrowAltCircleDown, FaArrowAltCircleRight, FaArrowRight, FaBars } from "react-icons/fa";
+import { FaArrowRight, FaBars } from "react-icons/fa";
 import { SiWeb3Dotjs } from "react-icons/si";
 
 import { FaBrain } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
-import { LuBarChart3 } from "react-icons/lu";
-import { AiFillAppstore, AiFillLinkedin } from "react-icons/ai";
+import { AiFillAppstore} from "react-icons/ai";
 export default function Features(){
     return(
     <div>
@@ -30,30 +28,27 @@ icon={ <FaBars/>}
   />
   <Cards
   icon={<AiFillAppstore/>}
-  title="App Development"
-  description="will learn this soon in near future"
+  title="System Design"
+  description="Focused on the basics of System design and gradually moving towards advanced topics"
   svg={<FaArrowRight/>}
-
   />
-  <Cards
+  {/* <Cards
   icon={<LuBarChart3/>}
   title="Data Analyst"
   description="will learn this soon in near future"
   svg={<FaArrowRight/>}
 
-  />
-  <Cards
+  /> */}
+  <Cards 
   icon={<FaBrain/>}
-  title="Machine Learning"
-  description="will learn this soon in near future"
-  svg={<FaArrowRight/>}
-
+  title="Problem solving skill"
+  description="350+ DSA Questions on leetcode check my leetcode profile"
+ svg={<FaArrowRight/>}
   />
-
   <Cards
   icon={<SiWeb3Dotjs/>}
   title="Blochchain"
-  description="learning in progress"
+  description="have basic knowledge"
   svg={<FaArrowRight/>}
 
   />

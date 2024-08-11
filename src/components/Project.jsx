@@ -1,5 +1,5 @@
 import React from "react";
-import Projectcards from "./projectcards";
+import Projectcards from "./Projectcards";
 import {AiFillGithub } from "react-icons/ai";
 export default function Project(){
     return(
@@ -12,7 +12,7 @@ export default function Project(){
   <Projectcards
   icon= {<img className="h-30 w-50" src="./img/tictoe_img.png" alt="hello"/>}
   title="Tic-toe-tac"
-  giticon={<a href="https://github.com/prach123i/Tic-Toe-Tac-Game.git" target="_blank"><AiFillGithub/></a>}
+  giticon={<a href="https://github.com/prach123i/Tic-Toe-Tac-Game.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
   description="This is a game creating using a React and Tailwind css. "
   />
   <Projectcards
@@ -24,7 +24,7 @@ export default function Project(){
   <Projectcards
   icon={<img className="h-30 w-50" src="./img/spotify.png"/>}
   title="Spotify Clone"
-  giticon={<a href="https://github.com/prach123i/Spotify-clone.git" target="_blank"><AiFillGithub/></a>}
+  giticon={<a href="https://github.com/prach123i/Spotify-clone.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
   description="This i a song website creating using HTML, CSS and Javascript. Using this user play the songs which i mentioned their"
   />
   </div>

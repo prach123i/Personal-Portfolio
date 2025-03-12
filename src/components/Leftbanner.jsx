@@ -22,11 +22,11 @@ const LeftBanner = () => {
   });
   return (
     <>
-      <div className="cont1 h-500 w-10/6  leading-10 text-white text-left">
-        <h1 className="text-6xl font-bold my-10 text-left">
+      <div className="cont1 h-500 w-full md:w-10/6 leading-10 text-white text-left">
+        <h1 className="text-4xl md:text-6xl font-bold my-10 text-left">
           Hi, I'm <span className="text-red-700">Prachi Sharma</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white text-left my-5">
+        <h2 className="text-2xl md:text-4xl font-bold text-white text-left my-5">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -41,20 +41,19 @@ const LeftBanner = () => {
           company where I can contribute my ideas and be mentored towards a
           successful career.
         </p>
-        <div className="subcont flex start p-12 font-bold ml-16 mt-6">
-          <div className="subcont1 mr-72 text-xl  ">
+        <div className="subcont flex flex-col md:flex-row start p-12 font-bold ml-0 md:ml-16 mt-6">
+          <div className="subcont1 text-xl mb-6 md:mb-0 md:mr-72">
             <h2>FIND ME ON</h2>
-            <div className="icons flex justify-evenly mt-2 text-3xl  gap-5 ">
+            <div className="icons flex justify-evenly mt-2 text-3xl gap-5">
               <a href="https://www.linkedin.com/in/prachi-sharma-5682a3253/" target="_blank" rel="noreferrer"> <AiFillLinkedin/></a>
               <a href="https://github.com/prach123i" target="_blank" rel="noreferrer"><AiFillGithub/></a>
               <AiFillMail/>
               <a href="https://leetcode.com/u/prachi61975/" target="_blank" rel="noreferrer"><AiFillCode/></a>
-
             </div>
           </div>
-          <div className="subcont2 text-xl ">
+          <div className="subcont2 text-xl">
             <h3>BEST WEB STACK</h3>
-            <div className="icons flex justify-evenly mt-2 text-3xl  gap-5">
+            <div className="icons flex justify-evenly mt-2 text-3xl gap-5">
               <LiaReact />
               <SiTailwindcss />
               <BiLogoJava />

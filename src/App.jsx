@@ -9,8 +9,8 @@ import Contact from "./components/Contact";
 export default function App() {
   return (
     <>
-      <div className=" bg-gradient-to-r from-sky-950 to-cyan-950">
-        <Navbar/>
+      <div className="bg-gradient-to-r from-sky-950 to-cyan-950 min-h-screen">
+        <Navbar />
         <Home />
         <hr className="line h-0.5 bg-black"></hr>
         <Features />

@@ -10,9 +10,9 @@ export default function Features(){
     <div>
         <div className="feature text-left text-2xl leading-10">
       <h4 className="text-md mt-3 text-red-700 ">Features</h4>
-      <h1 className="text-6xl text-white">What I Do</h1>
+      <h1 className="text-4xl md:text-6xl text-white">What I Do</h1>
       </div>
-      <div className="cardscontainer grid grid-cols-1 md:grid-cols-3 xl:gap-20">
+      <div className="cardscontainer grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-20">
   <Cards
 icon={ <FaBars/>}
   title="Proect Management"
@@ -32,13 +32,6 @@ icon={ <FaBars/>}
   description="Focused on the basics of System design and gradually moving towards advanced topics"
   svg={<FaArrowRight/>}
   />
-  {/* <Cards
-  icon={<LuBarChart3/>}
-  title="Data Analyst"
-  description="will learn this soon in near future"
-  svg={<FaArrowRight/>}
-
-  /> */}
   <Cards 
   icon={<FaBrain/>}
   title="Problem solving skill"

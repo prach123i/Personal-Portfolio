@@ -1,4 +1,3 @@
-import React from "react";
 import Projectcards from "./Projectcards";
 import {AiFillGithub } from "react-icons/ai";
 export default function Project(){
@@ -8,7 +7,13 @@ export default function Project(){
   <h3 className="mt-10 text-red-700">CHECK THESE OUT ON MY GITHUB</h3>
   <h1 style={{fontWeight:"bold", fontSize:"50px", color:"white"}}>My Projects</h1>
   </div>
-  <div className="cardscontainer grid grid-cols-1 md:grid-cols-3 xl:gap-20">
+  <div className="cardscontainer grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-20">
+  <Projectcards
+  icon={<img className="h-30 w-50" src="./img/dsa.png"/>}
+  title="DSA HUB"
+  giticon={<a href="https://github.com/prach123i/DSA_HUB.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
+  description="DSA Hub is a platform where users can practice LeetCode questions categorized by patterns. It helps in mastering Data Structures and Algorithms by providing a structured approach to problem-solving."
+  />
   <Projectcards
   icon= {<img className="h-30 w-50" src="./img/tictoe_img.png" alt="hello"/>}
   title="Tic-toe-tac"
@@ -25,7 +30,7 @@ export default function Project(){
   icon={<img className="h-30 w-50" src="./img/spotify.png"/>}
   title="Spotify Clone"
   giticon={<a href="https://github.com/prach123i/Spotify-clone.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
-  description="This i a song website creating using HTML, CSS and Javascript. Using this user play the songs which i mentioned their"
+  description="This is a song website creating using HTML, CSS and Javascript. Using this user play the songs which i mentioned their"
   />
   </div>
         </>

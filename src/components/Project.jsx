@@ -9,7 +9,11 @@ export default function Project(){
   </div>
   <div className="cardscontainer grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-20">
   <Projectcards
-  icon={<img className="h-30 w-50" src="./img/dsa.png"/>}
+    icon={
+      <a href="https://dsa-hub-qc4u.onrender.com/front" target="_blank" rel="noreferrer">
+        <img className="h-30 w-50" src="./img/dsa.png" alt="DSA HUB" />
+      </a>
+    }
   title="DSA HUB"
   giticon={<a href="https://github.com/prach123i/DSA_HUB.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
   description="DSA Hub is a platform where users can practice LeetCode questions categorized by patterns. It helps in mastering Data Structures and Algorithms by providing a structured approach to problem-solving."
@@ -21,7 +25,12 @@ export default function Project(){
   description="This is a game creating using a React and Tailwind css. "
   />
   <Projectcards
-    icon={<img className="h-30 w-50" src="./img/port.png"/>}
+    // icon={<img className="h-30 w-50" src="./img/port.png"/>}
+    icon={
+      <a href="https://personal-portfolio-drab-rho-74.vercel.app/" target="_blank" rel="noreferrer">
+        <img className="h-30 w-50" src="./img/port.png" alt="DSA HUB" />
+      </a>
+    }
   title="Portfolio Website"
   giticon={<AiFillGithub/>}
   description="This is a portfolio website creating using React, Tailwind css. Basically this is a website which tell about me."

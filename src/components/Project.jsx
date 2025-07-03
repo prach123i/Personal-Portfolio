@@ -10,12 +10,12 @@ export default function Project(){
   <div className="cardscontainer grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-20">
   <Projectcards
     icon={
-      <a href="https://dsa-hub-qc4u.onrender.com/front" target="_blank" rel="noreferrer">
+      <a href="https://dsa-hub-qc4u.onrender.com" target="_blank" rel="noreferrer">
         <img className="h-30 w-50" src="./img/dsa.png" alt="DSA HUB" />
       </a>
     }
   title="DSA HUB"
-  giticon={<a href="https://github.com/prach123i/DSA_HUB.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
+  giticon={<a href="https://github.com/prach123i/final_dsa_hub.git" target="_blank" rel="noreferrer"><AiFillGithub/></a>}
   description="DSA Hub is a platform where users can practice LeetCode questions categorized by patterns. It helps in mastering Data Structures and Algorithms by providing a structured approach to problem-solving."
   />
   <Projectcards

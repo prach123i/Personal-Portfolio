@@ -11,7 +11,7 @@ export default function Project(){
   <Projectcards
     icon={
       <a href="https://dsa-hub-qc4u.onrender.com" target="_blank" rel="noreferrer">
-        <img className="h-30 w-50" src="./img/dsa.png" alt="DSA HUB" />
+        <img className="h-30 w-50" src="./img/dsa1.png" alt="DSA HUB" />
       </a>
     }
   title="DSA HUB"
